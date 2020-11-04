@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_league"
+        android:icon="@drawable/ic_league"
+        android:title="@string/btm_nav_league" />
+    <item
+        android:id="@+id/menu_team"
+        android:icon="@drawable/ic_team"
+        android:title="@string/btn_nav_team" />
+    <item
+        android:id="@+id/menu_standing"
+        android:icon="@drawable/ic_standing"
+        android:title="@string/btn_nav_standing" />
+    <item
+        android:id="@+id/menu_match"
+        android:icon="@drawable/ic_schedule_black_24dp"
+        android:title="@string/btm_nav_schedule" />
+    <item
+        android:id="@+id/menu_favorite"
+        android:icon="@drawable/ic_favorite"
+        android:title="@string/btm_nav_favorite" />
+</menu>
