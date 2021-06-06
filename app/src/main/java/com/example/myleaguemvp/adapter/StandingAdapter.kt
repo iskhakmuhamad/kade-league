@@ -28,6 +28,7 @@ class StandingAdapter(
         fun bind(item: StandingItem) {
             itemView.tvk_win.text = item.win.toString()
             itemView.tvk_goal.text = item.goalsfor.toString()
+            itemView.tvk_lost.text = item.loss.toString()
             itemView.tvk_draw.text = item.draw.toString()
             itemView.tvk_played.text = item.played.toString()
             itemView.tvk_goal_again.text = item.goalsagainst.toString()
