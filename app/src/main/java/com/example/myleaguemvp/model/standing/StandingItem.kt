@@ -4,33 +4,33 @@ import com.google.gson.annotations.SerializedName
 
 data class StandingItem(
 
-    @field:SerializedName("loss")
+    @field:SerializedName("intLoss")
     val loss: Int? = null,
 
-    @field:SerializedName("total")
+    @field:SerializedName("intPoints")
     val total: Int? = null,
 
-    @field:SerializedName("goalsfor")
+    @field:SerializedName("intGoalsFor")
     val goalsfor: Int? = null,
 
-    @field:SerializedName("goalsagainst")
+    @field:SerializedName("intGoalsAgainst")
     val goalsagainst: Int? = null,
 
-    @field:SerializedName("teamid")
+    @field:SerializedName("idTeam")
     val teamid: String? = null,
 
-    @field:SerializedName("goalsdifference")
+    @field:SerializedName("intGoalDifference")
     val goalsdifference: Int? = null,
 
-    @field:SerializedName("name")
+    @field:SerializedName("strTeam")
     val name: String? = null,
 
-    @field:SerializedName("draw")
+    @field:SerializedName("intDraw")
     val draw: Int? = null,
 
-    @field:SerializedName("played")
+    @field:SerializedName("intPlayed")
     val played: Int? = null,
 
-    @field:SerializedName("win")
+    @field:SerializedName("intWin")
     val win: Int? = null
 )
